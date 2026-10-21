@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "720px",
+      "wideSize": "1120px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "profundo",
+          "name": "profundo",
+          "color": "#2E1065"
+        },
+        {
+          "slug": "roxo",
+          "name": "roxo",
+          "color": "#6D28D9"
+        },
+        {
+          "slug": "lilas",
+          "name": "lilas",
+          "color": "#C4B5FD"
+        },
+        {
+          "slug": "suave",
+          "name": "suave",
+          "color": "#F7F3FF"
+        },
+        {
+          "slug": "branco",
+          "name": "branco",
+          "color": "#FFFFFF"
+        },
+        {
+          "slug": "texto",
+          "name": "texto",
+          "color": "#241733"
+        },
+        {
+          "slug": "secundario",
+          "name": "secundario",
+          "color": "#62556F"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "slug": "corpo",
+          "name": "Sistema",
+          "fontFamily": "system-ui, sans-serif"
+        },
+        {
+          "slug": "titulo",
+          "name": "Georgia",
+          "fontFamily": "Georgia, serif"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#F7F3FF",
+      "text": "#241733"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|corpo",
+      "lineHeight": "1.75"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|titulo",
+          "lineHeight": "1.15"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#6D28D9"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "area": "header",
+      "title": "Cabeçalho"
+    },
+    {
+      "name": "footer",
+      "area": "footer",
+      "title": "Rodapé"
+    }
+  ]
+}

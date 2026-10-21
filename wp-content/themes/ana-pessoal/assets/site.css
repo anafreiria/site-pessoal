@@ -1,0 +1,74 @@
+html{scroll-behavior:smooth;scroll-padding-top:28px}*{box-sizing:border-box}body{margin:0}a{text-underline-offset:4px}a:hover{color:#2e1065}:focus-visible{outline:3px solid #6d28d9;outline-offset:5px}img{max-width:100%;height:auto}.site-header{max-width:1200px;margin:auto;padding:20px 28px;gap:24px}.assinatura{font:700 26px Georgia,serif;margin:0}.assinatura a{text-decoration:none;color:#2e1065}.assinatura span{color:#6d28d9}.wp-block-navigation{font-size:14px}.wp-site-blocks>main{margin-top:0}.ana-section{padding:72px max(24px,calc((100% - 1120px)/2));margin-block:0!important}.ana-section:nth-child(even){background:white}.ana-section h2{font-size:clamp(32px,4vw,48px);letter-spacing:-.025em;margin-top:0}.ana-section>p{max-width:65ch}.ana-hero{background:linear-gradient(135deg,#2e1065,#6d28d9 75%,#a78bfa);color:white;min-height:620px;display:grid;grid-template-columns:1.25fr 1fr;align-items:center;gap:64px}.ana-hero h1{font-size:clamp(40px,5.4vw,72px);letter-spacing:-.045em;max-width:none;margin:16px 0 24px}.ana-hero p{max-width:42ch}.ana-hero a{color:white}.ana-hero :focus-visible{outline-color:white}.ana-hero .wp-block-image{margin:0;transform:rotate(2deg)}.ana-hero img{border-radius:140px 140px 24px 24px;border:8px solid #ffffff25;max-height:520px;object-fit:contain;background:#2e1065}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em}.ana-gallery{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:32px}.ana-gallery>.wp-block-image{width:100%!important;margin:0!important;background:white;border-radius:20px;overflow:hidden;box-shadow:0 8px 28px #2e10650a;align-self:start}.ana-gallery img{width:100%;display:block}.ana-gallery figcaption{color:#62556f;padding:4px 16px 16px;font-size:14px;text-align:left}.ana-gallery .destaque{outline:3px solid #c4b5fd}.ana-card{border-left:3px solid #c4b5fd;padding:8px 0 8px 24px;margin:24px 0}.ana-card h3{font-size:24px;margin:0 0 8px}.ana-card p{max-width:65ch;margin:4px 0}.homenagem{background:#eee7fb;border-radius:24px;padding:28px;margin-top:28px;max-width:760px}.site-footer{background:#2e1065;color:#fff;padding:32px 24px;text-align:center}.site-footer a{color:#e2d8ff}dialog{border:0;border-radius:16px;padding:20px;background:#f7f3ff;max-width:94vw;max-height:94vh}dialog::backdrop{background:#160b28dd}dialog img{display:block;max-height:74vh;max-width:85vw;width:auto;margin:auto}dialog button{display:block;margin:0 0 16px auto;padding:10px 18px;border:2px solid #6d28d9;border-radius:24px;background:white;color:#2e1065;font:inherit;cursor:pointer}dialog p{margin:12px 0 0;max-width:65ch}@media(max-width:900px){.ana-hero{gap:32px}.ana-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.site-header{padding:16px 24px}.ana-section{padding:44px 24px}.ana-hero{grid-template-columns:1fr;gap:28px}.ana-hero img{max-height:420px}.ana-hero .wp-block-image{transform:none;max-width:320px;margin:auto}.ana-gallery{grid-template-columns:1fr}.ana-section h2{overflow-wrap:anywhere}.wp-block-navigation__responsive-container.is-menu-open{padding:28px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+.pular-conteudo{position:absolute;top:0;left:24px;z-index:1000;margin:0}.pular-conteudo a{position:absolute;transform:translateY(-150%);white-space:nowrap;background:white;padding:12px 20px;border-radius:0 0 12px 12px}.pular-conteudo a:focus{transform:translateY(0)}#sobre>.wp-block-image{max-width:540px;margin-top:32px;margin-inline:auto}#sobre>.wp-block-image img{border-radius:24px}
+
+/* Reading rhythm shared by the site and Gutenberg. */
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:18px;line-height:1.75;-webkit-text-size-adjust:100%}
+.ana-section>p,.ana-intro>p,.ana-card p,.homenagem p{font-size:clamp(17px,1.2vw,19px);line-height:1.8;letter-spacing:normal;text-align:justify;text-wrap:pretty;overflow-wrap:break-word}
+.ana-section>p{max-width:68ch;margin-block:0 1.25em;margin-inline:auto}
+.ana-section h2{line-height:1.16;margin-bottom:24px;text-wrap:balance}
+.ana-section h3,.ana-section h4{line-height:1.35;text-wrap:balance}
+.ana-section>h3{margin-top:40px;margin-bottom:20px}
+.ana-hero h1{line-height:1.08;text-wrap:balance}
+.ana-card h4{font-size:23px;margin:0 0 12px}
+.ana-card p{margin-block:8px}
+.ana-gallery{align-items:start}
+.ana-gallery.ana-gallery-grouped{display:flex!important;flex-direction:column;gap:16px}
+/* Justified rows: natural image proportions determine widths at equal height. */
+.ana-gallery-row{display:flex;gap:16px;width:100%;align-items:flex-start}
+.ana-gallery .wp-block-image{min-width:0;margin:0!important;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px #2e10650a;align-self:start}
+.ana-gallery-row>.wp-block-image{flex:var(--ana-photo-ratio,1) 1 0;width:0!important}
+.ana-gallery .wp-block-image>a{display:block;width:100%;background:transparent}
+.ana-gallery .wp-block-image img{display:block;width:100%;height:auto!important;max-height:none;object-fit:contain}
+.ana-section .wp-block-image figcaption{display:none}
+.ana-gallery-solo{max-width:420px}
+.ana-gallery-solo.ana-gallery-landscape{max-width:760px}
+.ana-memorial{background:linear-gradient(135deg,#eee7fb,#f7f3ff)!important}
+.ana-memorial>h2,.ana-memorial>p{max-width:680px;margin-inline:auto}
+.ana-memorial>.wp-block-image{max-width:420px;margin:32px auto 0}
+.ana-memorial>.wp-block-image img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 36px #2e106514}
+dialog p{display:none}
+@media(max-width:600px){body{font-size:17px}.ana-section h2{margin-bottom:20px}.ana-gallery-row{flex-direction:column;gap:16px}.ana-gallery-row>.wp-block-image{flex:none;width:100%!important}.ana-gallery.ana-gallery-grouped{gap:16px}.ana-section>p{margin-bottom:1.15em}.ana-gallery-solo{max-width:none}}
+
+.ana-memorial-card{max-width:760px;margin:32px auto 0;background:#ffffffb3;border:1px solid #c4b5fd80}
+.ana-memorial-card>.ana-gallery{margin-top:24px}
+.ana-memorial-card .ana-gallery-solo{margin-inline:auto}
+
+/* Center section titles and keep paragraph lines justified. */
+.ana-section :is(h1,h2,h3,h4,h5,h6){text-align:center}
+.ana-hero h1{margin-inline:0}
+
+/* Center the single graduation photograph within the education section. */
+#trajetoria>.ana-gallery>.ana-gallery-solo{margin-inline:auto}
+
+#trajetoria .wp-block-image figcaption{display:block;text-align:center;padding:12px 16px;font-size:14px;color:#62556f}
+
+.ana-section>p.ana-gallery-note{text-align:center;max-width:none;margin:12px auto 0;font-size:14px;color:#62556f}
+
+/* Experience entries use a shared width and clear separation. */
+#experiencias>.ana-card{max-width:860px;margin:24px auto;padding:24px 28px;border:1px solid #ddd0f3;border-left:4px solid #c4b5fd;border-radius:16px;background:#ffffffb3}
+#experiencias>.ana-card h3{margin-bottom:16px}
+#experiencias>.ana-card p{max-width:none;text-align:justify;hyphens:auto}
+#experiencias>.ana-gallery{max-width:860px;margin:24px auto 0}
+#experiencias>.ana-gallery>.ana-gallery-solo{margin-inline:auto}
+@media(max-width:600px){#experiencias>.ana-card{padding:20px}}
+
+/* A single PET photo is centered by the gallery flex container. */
+#experiencias>.ana-gallery.ana-gallery-grouped{align-items:center}
+
+/* Contact heading and introduction span the full button grid. */
+#contato{display:grid;grid-template-columns:repeat(4,minmax(0,190px));justify-content:center;align-items:start;gap:16px}
+#contato>h2,#contato>p:not(:has(>a)){grid-column:1 / -1;text-align:center;width:100%;max-width:none;margin:0}
+#contato>h2{margin-bottom:8px}
+#contato>p:not(:has(>a)){margin-bottom:16px}
+#contato>p:has(>a){margin:0;width:100%;max-width:none;text-align:center}
+#contato>p>a{display:flex;align-items:center;justify-content:center;min-height:60px;padding:16px 24px;border:1px solid #c4b5fd;border-radius:16px;background:linear-gradient(135deg,#fff,#eee7fb);color:#5b21b6;font-size:17px;font-weight:650;text-decoration:none;box-shadow:0 4px 14px #2e10650a;transition:transform .2s,box-shadow .2s,background .2s}
+#contato>p>a:hover{background:#ede9fe;color:#2e1065;transform:translateY(-3px);box-shadow:0 8px 22px #6d28d91a}
+#contato>p>a:focus-visible{outline:3px solid #6d28d9;outline-offset:4px}
+@media(max-width:600px){#contato{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}#contato>p>a{padding:14px 16px}}
+
+/* Align the name with the other introduction text. */
+.ana-section.ana-hero h1{text-align:left;margin-inline:0;font-size:clamp(40px,5.4vw,72px);max-width:12ch;overflow-wrap:normal;text-wrap:balance}
+
+/* Center standalone rows in the family gallery. */
+#familia>.ana-gallery>.ana-gallery-solo{margin-inline:auto}
